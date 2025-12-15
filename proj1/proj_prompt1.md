@@ -1,4 +1,4 @@
-# Mini-Project 2: Titanic Data Cleaning Challenge
+# Mini-Project 1: Titanic Data Cleaning Challenge
 
 ## **Overview**
 This project focuses on the most critical (and often most time-consuming) skill in data science: **Data Cleaning**. You will be working with the famous Titanic passenger survival dataset. This dataset is messy by design, containing missing values, inconsistent data types, and potential duplicates, making it the perfect sandbox for mastering preprocessing techniques.
