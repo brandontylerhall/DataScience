@@ -1,0 +1,17 @@
+# --- Virtual Environment (Do not track these!) ---
+.venv/
+venv/
+env/
+pyvenv.cfg
+CACHEDIR.TAG
+
+# --- PyCharm / IDE Settings ---
+.idea/
+
+# --- Python Compiled Files (Temporary junk) ---
+__pycache__/
+*.pyc
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
