@@ -11,11 +11,9 @@ sns.catplot(kind='bar', x="City", y="gross income", hue="City", estimator=sum, d
 sns.catplot(kind='count', x="Payment", data=sales, hue='Payment')
 
 # Question 3: Which Product line gets the best Ratings
-sns.catplot(kind="bar", data=sales, x='Product line', y='Rating', hue='Product line')
-
+sns.catplot(kind="bar", data=sales, y='Product line', x='Rating', hue='Product line')
 # Question 4: Who spends more on average: Members or Normies
 sns.catplot(kind="bar", x="Customer type", y="Total", hue="Customer type", data=sales)
-
 # Question 5: Which Product line makes the most gross income
 sns.catplot(kind="bar", y="Product line", x="gross income", estimator=sum, data=sales, hue="Product line")
 
