@@ -56,7 +56,6 @@ q5 = sns.catplot(
 )
 q5.figure.suptitle("Gross Income by Product Line")
 q5.figure.subplots_adjust(top=0.9)
-plt.show()
 
 # Question 6: Who (Member vs Normal) buys What (Product) and How Much (Total)
 q6 = sns.catplot(
@@ -71,3 +70,4 @@ q6 = sns.catplot(
 q6.figure.suptitle("Total Sales By Customer Type and Product Line", y=1)
 q6.figure.subplots_adjust(top=0.9)
 
+plt.show()
