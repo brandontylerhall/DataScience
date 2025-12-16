@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 sales = pd.read_csv('supermarket_sales.csv')
 
 # Question 1: Which City brings in the most gross income
-q1 = sns.catplot(kind='bar', x="City", y="gross income", hue="City", estimator=sum, data=sales)
+sns.catplot(kind='bar', x="City", y="gross income", hue="City", estimator=sum, data=sales)
 
 # Question 2: Which Payment method is most popular
-sns.catplot(kind='count', x="Payment", estimator=sum, data=sales, hue='Payment')
+sns.catplot(kind='count', x="Payment", data=sales, hue='Payment')
 
 # Question 3: Which Product line gets the best Ratings
 sns.catplot(kind="bar", data=sales, x='Product line', y='Rating', hue='Product line')
